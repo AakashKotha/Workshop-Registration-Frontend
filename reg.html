@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Workshop Registration</title>
+    <map name="image-map">
+        <area target="" alt="Register" title="" href="reg.html" coords="408,198,105" shape="circle">
+    </map>
+  </head>
+
+  <body>
+    <header>
+      <span><a href="index.html"><br><img src="logo.png" alt="Logo" class="logo"></a></span><br><br>
+      <nav>
+        <span><a href="index.html"><span><h2 class="navitem" style="margin-left: 900px;">Home</h2></a></span>
+        <span><a href="reg.html"><span><h2 class="navitem" style="margin-left: 30px;">Register</h2></a></span>
+        <span><a href="#footer"><span><h2 class="navitem" style="margin-left: 30px;">Contact Us</h2></a></span>
+      </nav>
+    </header>
+    <section>
+      <br>
+      <span style="color: #e35129;font-family: arial;text-align: center;">
+        <h1><i>Fill the Below form!</i></h1>
+        <h2><i>Register Now while seats are available!</i></h2></span><br>
+      </span>
+        <div class="row">
+          <form>
+          <div class="column" style="background-color:white;">
+          <br><label for="fname"><b>First name </b><span style="color: red;">*</span></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" id="fname" name="fname" placeholder="Enter First Name" style="margin-left:75px" required><br><br>
+          <label for="lname"><b>Last name </b><span style="color: red;">*</span></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" id="lname" name="lname" placeholder="Enter Last Name" style="margin-left:77px" required><br><br>
+          <label for="gender"><b>Gender</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" id="male" name="gender" value="male" style="margin-left:90px">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br><br>
+          <label for="Companyinstitution"><b>Company Institution </b><span style="color: red;">*</span></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" id="Companyinstitution" name="Companyinstitution" placeholder="Enter Institution Name"style="margin-left:5px" required><br><br>
+          <label for="address"><b>Address </b><span style="color: red;">*</span></label>&nbsp;&nbsp;&nbsp;&nbsp; <br>          
+          <textarea id="address" name="address" rows="8" cols="50" placeholder="Enter Your Address here"style="margin-left:180px"></textarea><br><br>
+          <label for="city"><b>City</b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" id="city" name="city" placeholder="Enter City Name" style="margin-left:130px"><br><br>
+          <label for="state"><b>State/Province/Region </b></label>&nbsp;&nbsp;
+            <select name="state" id="state" style="margin-left:10px;width:166px;">
+              <option value="" disabled selected>--Select State--</option>
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Other">Other</option>
+            </select><br><br>
+          <label for="country"><b>Country </b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="country" id="country" style="margin-left:95px;width:166px;">
+              <option value="" disabled selected>--Select Country--</option>
+              <option value="India">India</option>
+              <option value="France">France</option>
+              <option value="Germany">Germany</option>
+              <option value="Russia">Russia</option>
+              <option value="UK">UK</option>
+              <option value="USA">USA</option>S
+              <option value="Other">Other</option>
+            </select><br><br>
+          <label for="mail"><b>Email </b><span style="color: red;">*</span></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" id="mail" name="mail" placeholder="Enter your Mail-ID" style="margin-left:103px" required=""><br><br>
+          <label for="phoneno"><b>Phone Number </b><span style="color: red;">*</span></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="tel" id="phoneno" name="phoneno" placeholder="Enter phone no." pattern="[6-9]{1}[0-9]{9}" style="margin-left:40px" required=""><br><br>
+          </div>
+          <div class="column" style="background-color:white;">
+            <h3><u>Lunch</u></h3>
+          <label for="meal"><b>Meal Preference </b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="meal" id="meal" style="margin-left:33px;width:166px;">
+              <option value="" disabled selected>--Select Meal--</option>
+              <option value="veg">Vegetarian</option>
+              <option value="nonveg">Non-Vegetarian</option>
+            </select><br><br>
+          <h3><u>Payment Details</u></h3>
+          <label><b>Payment Mode</b></label>
+          <div style="margin-left: 165px;">
+              <input type="checkbox" id="pay1" name="pay1" value="cash">
+              <label for="pay1">Cash</label><br>
+              <input type="checkbox" id="pay2" name="pay2" value="cheque">
+              <label for="pay2">Cheque</label><br>
+              <input type="checkbox" id="pay3" name="pay3" value="DD">
+              <label for="pay3">Demand Draft</label><br><br>
+          </div>
+          <label for="DD"><b>DD Cheque No. </b></label>&nbsp;&nbsp;
+          <input type="text" id="DD" name="DD" placeholder="Enter DD cheque no."style="margin-left:45px"><br><br>
+          <label for="bank"><b>DrawnOn(Bank-Name) </b></label>
+          <input type="text" id="bank" name="bank" placeholder="Enter Bank-Name" style="margin-left:5px"><br><br>
+          <label for="pay"><b>Payable at </b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" id="pay" name="pay" style="margin-left:73px"><br><br>
+          </div>
+        </form>
+        </div>
+        <br><br>
+        <input type="submit" class="btn" style="background-color: green;margin-top: 40px;margin-left: 640px;" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" class="btn" style="background-color: blue;margin-top: 40px;" value="Reset">
+        
+    </section>
+    <footer id="footer">
+      <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/-IrP3PKDPS4" title="YouTube video player" frameborder="3px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: left;margin-left: 30px;border:3px solid red"></iframe>
+      <p style="color:#e35129;font-family:arial;font-size: 170%;margin-left: 950px;margin-right: 20px;">
+         <b>Contact Us</b></p>
+      <p class="para" style="font-size: 170%;margin-left: 900px;margin-right: 20px;">
+         <b>___________________</b></p>
+      <p class="para" style="margin-left: 950px;margin-right: 20px;line-height: 120%;">
+         KOTHA V V S AAKASH<br>19BCE0186<br>kothav.vsaakash2019@vitstudent.ac.in<br>VIT, Vellore</p>
+      <p style="color:white;font-family:arial;font-size: 170%;margin-left: 750px;margin-right: 20px;">
+         <b>________________________________________</b></p>
+
+    </footer>
+          
+  </body>
+</html>

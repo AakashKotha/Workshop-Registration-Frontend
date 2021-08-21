@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+  margin: 0px;
+  margin-top: 0px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+
+.btn{
+  border: 15px white;
+  padding: 8px;
+  margin: 20px;
+  color:white;
+  height: 30px;
+  width: 90px;
+}
+
+header{
+  background-color:black;
+  height: 120px;
+}
+
+.logo{
+  width:100px;
+  margin-left: 50px;
+  float: left;
+}
+
+.navitem{
+  color: white;
+  font-family: Arial;display: inline;
+  
+}
+
+.nav2{
+  color: white;
+  font-family: Arial;display: inline;
+  margin-left: px;
+}
+
+section{
+  background-color:#303030;
+  height: 1000px;
+}
+
+
+.para{
+  color:white;
+  font-family:arial;
+  font-size: 120%;
+  margin-left: 700px;
+}
+
+footer{
+  background-color:#202020;
+  height: 400px; 
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 47%;
+  padding: 10px;
+  height: 580px;
+  margin-left: 15px; 
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
